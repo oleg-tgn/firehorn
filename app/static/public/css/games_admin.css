@@ -1,0 +1,15 @@
+.games-admin {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.games-admin__item {
+	display: flex;
+	flex-direction: column;
+	width: 245px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 50px;
+	font-size: 13px;
+	line-height: 1.5;
+}

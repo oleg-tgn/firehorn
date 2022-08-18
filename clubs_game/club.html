@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Клуб Fire Horn League</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg ">
+        <div class="container">
+            <ul class="navbar-nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Войти</a>
+                </li>      
+                <li class="nav-item">
+                    <a class="nav-link" href="registration.html">Регистрация</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registration_club.html">Регистрация Клуба</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registration_player.html">Регистрация Игрока</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="clubs_list.html">Список клубов</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="players_list.html">Список игроков</a>
+                </li>  
+                <li class="nav-item">
+                    <a class="nav-link" href="player.html">Страница игрока</a>
+                </li>         
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="club.html">Страница клуба</a>
+                </li>                   
+            </ul>
+        </div>
+    </nav>
+    <div class="container">        
+            <h1 class="mt-4 mb-4">Страница клуба</h1>
+            <h2 class="mt-4 mb-4">Текущие игроки</h2> 
+
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Позиция</th>
+                    <th scope="col">Ник</th>                    
+                    <th scope="col">Ранг (ру / вест)</th>
+                    <th scope="col">Действие</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Топ</td>
+                        <td>Player1</td>
+                        <td>Алмаз I</td>
+                        <td><a href="#" class="btn btn-danger btn-sm">Исключить</a></td>
+                    </tr> 
+                    <tr>
+                    <th scope="row">1</th>
+                        <td>Лес</td>
+                        <td>Player2</td>
+                        <td>Алмаз IV</td>
+                        <td><a href="#" class="btn btn-danger btn-sm">Исключить</a></td>
+                    </tr> 
+                    <tr>
+                    <th scope="row">1</th>
+                        <td>Мид</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr> 
+                  <tr>
+                    <th scope="row">1</th>
+                        <td>Адк</td>
+                        <td>-</td>
+                        <td>- </td>
+                        <td>- </td>
+                  </tr>     
+                  <tr>
+                    <th scope="row">1</th>
+                        <td>Сап</td>
+                        <td>Player2</td>
+                        <td>Бронза II</td>
+                        <td><a href="#" class="btn btn-danger btn-sm">Исключить</a></td>
+                  </tr>           
+                </tbody>
+              </table>            
+            <h2 class="mt-4 mb-4">Заявки</h2>
+
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Позиция</th>
+                    <th scope="col">Ник</th>                    
+                    <th scope="col">Ранг (ру / вест)</th>
+                    <th scope="col">Действие</th>
+                  </tr>
+                </thead>
+                <tbody>   
+                  <tr>
+                    <th scope="row">1</th>
+                        <td>d Album</td>
+                        <td>Лес</td>
+                        <td>Золото II</td>
+                        <td><a href="#" class="btn btn-primary btn-sm">Принять игрока</a></td>
+                  </tr>           
+                </tbody>
+              </table>
+              
+              
+            
+            <form class="col-6 mx-auto">
+            <h2 class="mt-4 mb-4">Редактировать данные</h2>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Логин</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="login">              
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Пароль</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" value="password">
+            </div>            
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Повторите пароль</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" value="password">
+            </div>  
+            <button type="submit" class="btn btn-primary">Редактировать</button>  
+            
+            <h2 class="mt-4 mb-4">Редактировать личные данные</h2>              
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Название</label>
+                <input type="text" class="form-control" id="playerName" value="Кипер Подполье">  
+            </div>            
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Телефон</label>
+                <input type="text" class="form-control" id="playerPhone" value="+7 (900) 444-55-33">  
+            </div>       
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Адрес</label>
+                <input type="text" class="form-control" id="playerTown" value="Ростов-на-Дону">  
+            </div>     
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Соц сети, через запятую</label>
+                <input type="text" class="form-control" id="playerSocial" value="vk.com/id1">  
+            </div>
+            <button type="submit" class="btn btn-primary">Редактировать</button>
+        </form>
+    </div>
+</body>
+</html>

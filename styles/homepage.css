@@ -1,0 +1,66 @@
+.tournaments {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.tournaments__item {
+  width: calc(100% / 5);         
+  padding: 15px;
+}
+
+.tournaments__title {
+  margin: 10px 0;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+@media (max-width: 1500px) {
+  .tournaments__item {
+    width: calc(100% / 4);
+  }
+}
+
+@media (max-width: 1024px) {
+  .tournaments__item {
+    width: calc(100% / 3);
+    
+  }
+
+  .tournaments__title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 414px) {
+  .tournaments {
+    margin: 0 -7px;
+  }
+  .tournaments__item {
+    width: calc(100% / 2);
+    padding: 7px;
+  }
+
+  .tournaments__title {
+    font-size: 15px;
+  }
+}
+
+.tournaments__date {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #6c757d;
+  padding-left: 10px;
+}
+
+.tournaments__link {
+  display: inline-block;
+  /*background: #333;*/
+  color: #fff;
+  overflow: hidden;
+}
+.tournaments__link:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #444;
+}

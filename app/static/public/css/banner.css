@@ -1,0 +1,86 @@
+.banner {
+	background-size: cover;
+}
+
+.banner__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: calc(100vh - 92px);
+	max-height: 577px;
+}
+
+.banner__content {	
+	padding: 70px 0;
+	text-align: center;
+	background: rgba(19, 20, 28, 0.5);
+}
+
+.banner__title {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 73px;
+}
+
+.banner__description {
+	max-width: 800px;
+	margin: 0 auto 25px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.banner__btn {	
+	display: inline-block;
+	margin: 0 auto;
+	padding: 20px 30px;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #242632;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #fff;
+}
+
+
+.admsliders__list {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+
+.admsliders__item {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 15px 30px;
+}
+
+.admsliders__item:nth-child(odd) {
+	background: #3D3F51;
+}
+
+.dmsliders__img {
+	width: 20%;
+}
+
+.admsliders__title {
+	width: 20%;
+}
+
+.admsliders__description {
+	width: 30%;
+}
+
+.admsliders__actions {
+	display: flex;
+	flex-direction: column;	
+}
+
+.admsliders__btn:first-child {
+	margin-bottom: 10px;
+}
